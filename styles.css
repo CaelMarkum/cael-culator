@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -13,7 +14,7 @@ body{
 #calculator{
     font-family: sans-serif;
     background-color: rgb(15, 15, 15);
-    color: white;
+    color: blueviolet;
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
@@ -26,7 +27,7 @@ body{
     font: 4rem;
     text-align: left;
     border: none;
-    background-color: rgb(44, 44, 44);
+    background-color:yellow;
 
 }
 
@@ -43,7 +44,7 @@ button{
     border-radius: 10px;
     border: none;
     background-color: rgb(44, 44, 44);
-    color: white;
+    color:darkolivegreen;
     font-size: 2rem;
     font-weight: bold;
     cursor: pointer;
